@@ -41,10 +41,10 @@ function Login() {
   const initRequest = async () => {
     try {
       setIsLoading(true);
-      const response = await axiosInstance.post("/auth/login", values);
+      // const response = await axiosInstance.post("/auth/login", values);
       setIsLoading(false);
-      console.log(response);
-      // navigation.replace("Register");
+      // console.log(response);
+      // navigation.replace("Users");
     } catch (error) {
       console.log(error);
 
